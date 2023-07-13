@@ -1,10 +1,10 @@
-import styles from './Main.module.scss'
+import styles from "./Main.module.scss"
 
 function Main() {
-
     return (
         <div className={styles.container}>
             <div className={styles.modal}>
+                <h2>Barbershop</h2>
                 <ul>
                     <li>
                         <button>Specialist</button>

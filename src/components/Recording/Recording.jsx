@@ -13,8 +13,19 @@ function Recording() {
                             <h2>Mark Scar</h2>
                         </div>
                         <div className={styles.dataAndTime}>
-                            <h3>14.07</h3>
-                            <h3>14:00</h3>
+                            <div>
+                                <h3>Date and Time:</h3>
+
+                                <div>
+                                    <h3>14.07</h3>
+                                    <h3>14:00</h3>
+                                </div>
+                            </div>
+
+                            <div>
+                                <h3>Price:</h3>
+                                <h3>13$</h3>
+                            </div>
                         </div>
                     </div>
                 </div>

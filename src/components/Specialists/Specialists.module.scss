@@ -41,18 +41,17 @@
                             text-transform: uppercase;
                             margin: 0;
                         }
-                        
+
                         h3 {
                             text-transform: uppercase;
                             font-size: 14px;
-                            
                         }
-                        
+
                         h2 {
                             text-transform: uppercase;
                             font-size: 18px;
                         }
-                        
+
                         div {
                             margin-top: 10px;
                             ul {
@@ -71,6 +70,7 @@
 
                                         &:hover {
                                             color: white;
+                                            cursor: pointer;
                                             background-color: rgb(
                                                 121,
                                                 120,
