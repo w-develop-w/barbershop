@@ -8,8 +8,6 @@ function Services() {
     return <div>Loading...</div>;
   }
 
-//   get data of all services (RTK Query)
-
   if (error) {
     return <div>Error: {error.message}</div>;
   }
