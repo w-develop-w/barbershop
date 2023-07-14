@@ -1,0 +1,21 @@
+{
+    "barbers": [
+        {
+            "id": 1,
+            "name": "Mark Socar",
+            "status": "Top barber",
+            "datesAndTime": [{
+                "date": "14.07", 
+                "time": ["10:00", "12:00", "14:00"], 
+                "access": [1.5 , 0.5 , 1 ]
+            }], 
+            "price": "+10%"
+        }
+    ], 
+    "servicing": [
+        {
+            "name": "",
+            "price": "" 
+        }
+    ]
+}
