@@ -6,7 +6,7 @@ function Recording() {
             <div className={styles.modal}>
                 <h3>Recording</h3>
                 <div className={styles.content}>
-                    <img src="img/barber-1.webp" />
+                    <img src="img/barber-1.jpg" />
                     <div className={styles.info}>
                         <div className={styles.barber}>
                             <h3>Top Barber</h3>

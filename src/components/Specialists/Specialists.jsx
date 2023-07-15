@@ -1,5 +1,5 @@
 import styles from "./Specialists.module.scss";
-import { useSpecialistsQuery } from "../../api/fetchDataSpecialists";
+import { useSpecialistsQuery } from "../../api/fetchDataSpecialists.ts";
 
 function Specialists() {
   const { data, error, isLoading } = useSpecialistsQuery();

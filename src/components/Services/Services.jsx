@@ -1,5 +1,5 @@
 import styles from "./Services.module.scss";
-import { useServicingQuery } from "../../api/fetchDataServices";
+import { useServicingQuery } from "../../api/fetchDataServices.ts";
 
 function Services() {
   const { data, error, isLoading } = useServicingQuery();

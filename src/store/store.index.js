@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import dataOfBarbershopReducer from './dataSlices';
-import fetchDataServices from "../api/fetchDataServices";
-import fetchDataSpecialists from "../api/fetchDataSpecialists";
+import fetchDataServices from "../api/fetchDataServices.ts";
+import fetchDataSpecialists from "../api/fetchDataSpecialists.ts";
 
 export const store = configureStore({
   reducer: {
@@ -10,7 +10,5 @@ export const store = configureStore({
     [fetchDataSpecialists.reducerPath]: fetchDataSpecialists.reducer,
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(fetchDataServices.middleware),
-  middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(fetchDataSpecialists.middleware),
+    getDefaultMiddleware().concat(fetchDataServices.middleware, fetchDataSpecialists.middleware),
 });
