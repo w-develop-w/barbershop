@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./Specialists.module.scss";
 import { useSpecialistsQuery } from "../../api/fetchDataSpecialists";
 import { Barbers, DatesAndTime } from "../../models/models"
+import styles from "./Specialists.module.scss"
 
 function Specialists() {
   const { data, error, isLoading } = useSpecialistsQuery(null);

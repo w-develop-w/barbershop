@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Services.module.scss";
+import styles from "./Services.module.scss"
 import { useServicingQuery } from "../../api/fetchDataServices";
 import { Servicing } from "../../models/models";
 

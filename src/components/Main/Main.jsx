@@ -1,4 +1,6 @@
 import styles from "./Main.module.scss"
+import { Link } from 'react-router-dom';
+
 
 function Main() {
     return (
@@ -7,7 +9,9 @@ function Main() {
                 <h2>Barbershop</h2>
                 <ul>
                     <li>
-                        <button>Specialist</button>
+                        <Link to="/specialists">
+                            <button>Specialists</button>
+                        </Link>
                     </li>
 
                     <li>
